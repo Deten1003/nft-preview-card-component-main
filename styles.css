@@ -1,0 +1,116 @@
+*{
+  font-family: 'Outfit', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    background-color:  hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 25px;
+    width: 300px;
+    box-shadow: 0px 0px 40px 5px rgb(0,0,0,0.3);
+    position: relative;
+}
+.cube{
+  border-radius: 20px;
+  width: 300px;
+  height: 350px;
+  cursor: pointer;
+}
+.over{
+  width: 300px;
+  background-color: hsl(178, 100%, 50%);
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 25px;
+  margin-top: 25px;
+  border-radius: 20px;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.nice:hover .over{
+  opacity: 0.4;
+}
+p{
+  font-size: 18px;
+}
+.time{
+  display: flex;
+  justify-content: space-between;
+}
+h2{
+  color:hsl(0, 0%, 100%) ;
+  cursor:pointer ;
+}
+h2:hover{
+  color:hsl(178, 100%, 50%) ;
+}
+
+.calm{
+  color:hsl(215, 51%, 70%) ;
+}
+.diamond{
+  width: 10px;
+  height: 15px;
+  padding-right: 10px;
+}
+.gem{
+  display: flex;
+flex-direction: row;
+  align-items: center;
+}
+.eth{
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.clock{
+  width: 15px;
+  height: 20px;
+  padding-right: 10px;
+}
+.three{
+  display: flex;
+flex-direction: row;
+  align-items: center;
+}
+.days{
+  color: hsl(215, 51%, 70%);
+}
+.creation{
+  display: flex;
+flex-direction: row;
+  align-items: center;
+}
+.man{
+  width: 30px;
+  height: 33px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.of{
+  padding-left: 20px;
+  color:hsl(215, 51%, 70%) ;
+}
+hr{
+  color: hsl(215, 32%, 27%);
+}
+.why{
+  color: white;
+  padding-left: 5px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.why:hover{
+  color: hsl(178, 100%, 50%);
+}
